@@ -56,15 +56,23 @@
 		350C469A2151AAE4008D82EA /* To Do List */ = {
 			isa = PBXGroup;
 			children = (
+				350C46AF2153733E008D82EA /* Controller */,
 				350C469B2151AAE4008D82EA /* AppDelegate.swift */,
-				350C469D2151AAE4008D82EA /* FirstViewController.swift */,
-				350C469F2151AAE4008D82EA /* SecondViewController.swift */,
 				350C46A12151AAE4008D82EA /* Main.storyboard */,
 				350C46A42151AAE6008D82EA /* Assets.xcassets */,
 				350C46A62151AAE6008D82EA /* LaunchScreen.storyboard */,
 				350C46A92151AAE6008D82EA /* Info.plist */,
 			);
 			path = "To Do List";
+			sourceTree = "<group>";
+		};
+		350C46AF2153733E008D82EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				350C469D2151AAE4008D82EA /* FirstViewController.swift */,
+				350C469F2151AAE4008D82EA /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
